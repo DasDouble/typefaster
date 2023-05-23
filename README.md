@@ -24,5 +24,7 @@ Please note that the current implementation has some limitations and may require
 - **English Word Detection**: The script uses the `enchant` library to validate words against an English dictionary. However, this approach may not be foolproof and could produce false positives or miss certain valid words.
 - **Resource Usage**: Generating permutations of the entered text can consume a significant amount of memory, especially for longer input. Consider implementing optimizations or constraints to limit resource usage if necessary.
 - **Modification**: Depending on your specific requirements, you may need to modify the script significantly to meet your needs. Feel free to customize and extend the functionality as required.
+- **Word Detection**: The script currently detects words based on their position in the dictionary. It selects the first valid English word found. An improvement for anyone interested in working on this project would be to explore alternative word ranking algorithms, such as analyzing word frequency or context, to provide more accurate or relevant suggestions.
+- **Project Enhancement**: If you are interested in enhancing this project, you could consider incorporating advanced natural language processing techniques, building a more comprehensive word database, or implementing machine learning algorithms to improve word detection accuracy and offer better word suggestions.
 
 Feel free to modify the script according to your needs and explore different functionalities. Happy coding!
