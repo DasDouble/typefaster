@@ -1,4 +1,4 @@
-Keyboard Word Checker
+Keyboard Typefaster
 This Python script listens to keyboard input and checks for valid English words in the entered text. It uses the keyboard library to capture keypress events and the enchant library to validate words against an English dictionary.
 
 Prerequisites
